@@ -17,7 +17,8 @@
 var unrespondedLabel = 'No Response',
     ignoreLabel = 'Ignore No Response',
     minDays = 5,
-    maxDays = 14;
+    maxDays = 21;
+    /* original maxDays = 14 */
 
 function main() {
   processUnresponded();
